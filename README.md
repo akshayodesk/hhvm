@@ -72,8 +72,9 @@ With these two things ready, you should be able to compile VaeQL.
 
 ## Compiling:
 
+    phpize
+    ./configure --enable-vaeql --with-php-config=/usr/bin/php-config   CFLAGS='-fpermissive' CXXFLAGS='-fpermissive'
     make
-    make install
 
 Then add this line to your php.ini.  If you are using Homebrew the path
 is /usr/local/etc/php/7.0/php.ini.  Otherwise, it might be in /etc.  Run
