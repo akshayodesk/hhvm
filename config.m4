@@ -20,6 +20,8 @@ AC_MSG_CHECKING(PHP version)
             [AC_MSG_ERROR([need at least PHP 4.0.0])])
 
     export CPPFLAGS="$OLD_CPPFLAGS"
+    export LDFLAGS="-L/usr/local/lib -g -lantlr3c"
+    export LIBS="-lantlr3c"
 
 
 AC_DEFINE(HAVE_VAEQL, 1, [ ])
