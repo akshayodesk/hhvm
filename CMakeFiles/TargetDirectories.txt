@@ -1,0 +1,2 @@
+/var/www/githubs/vaeql/CMakeFiles/test.dir
+/var/www/githubs/vaeql/CMakeFiles/vaeql.dir

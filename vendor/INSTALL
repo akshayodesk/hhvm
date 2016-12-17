@@ -1,0 +1,10 @@
+Setting up antlr on your dev machine:
+
+[on CentOS]:
+yum install glibc-devel
+
+[all]:
+cd vendor/libantlr3c-3.2
+./configure --enable-64bit --enable-shared
+make
+make install
